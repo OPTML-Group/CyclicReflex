@@ -1,0 +1,7 @@
+datasets==3.3.1
+numpy==2.3.0
+torch==2.5.1
+tqdm==4.67.1
+transformers==4.50.0.dev0
+vllm==0.7.3
+wandb==0.20.1
