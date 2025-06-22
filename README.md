@@ -15,7 +15,7 @@
     <td align="center"> 
       <img src="Images/teaser.png" alt="Teaser" style="width: 700px;"/> 
       <br>
-      <em style="font-size: 18px;">  <strong style="font-size: 18px;">Figure 1:</strong> Schematic overview of our proposed method (CyclicReflex). The
+      <em style="font-size: 18px;">  <strong style="font-size: 18px;">Figure 1:</strong> Schematic overview of CyclicReflex. The
 rightmost subfigure presents a comparison of final answer accuracy between
 CyclicReflex, the original LRM, and decoding
 variants using TIP and S1.</em>
