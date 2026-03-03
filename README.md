@@ -2,7 +2,7 @@
  
 # CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling
 
-[![preprint](https://img.shields.io/badge/arXiv-2506.11077-B31B1B)](https://arxiv.org/abs/2506.11077)
+[![Venue: ICLR 2026](https://img.shields.io/badge/Venue-ICLR%202026-green)](https://iclr.cc/virtual/2026/poster/10011528)
 [![issues](https://img.shields.io/badge/Issues-Welcome!-yellow)](https://github.com/OPTML-Group/CyclicReflex/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/OPTML-Group/CyclicReflex?tab=MIT-1-ov-file)
 [![GitHub top language](https://img.shields.io/github/languages/top/OPTML-Group/CyclicReflex)](https://github.com/OPTML-Group/CyclicReflex)
