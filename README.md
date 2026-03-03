@@ -1,6 +1,6 @@
 <div align='center'>
  
-# CyclicReflex: Improving Large Reasoning Models via Cyclical Reflection Token Scheduling
+# CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling
 
 [![preprint](https://img.shields.io/badge/arXiv-2506.11077-B31B1B)](https://arxiv.org/abs/2506.11077)
 [![issues](https://img.shields.io/badge/Issues-Welcome!-yellow)](https://github.com/OPTML-Group/CyclicReflex/issues)
@@ -23,10 +23,10 @@ variants using TIP and S1.</em>
   </tr>
 </table>
 
-This is the official code repository for the paper [CyclicReflex: Improving Large Reasoning Models via Cyclical Reflection Token Scheduling](https://arxiv.org/abs/2506.11077).
+This is the official code repository for the ICLR 2026 paper [CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling](https://arxiv.org/abs/2506.11077).
 
 ## Abstract
-Large reasoning models (LRMs), such as OpenAI's o1 and DeepSeek-R1, harness test-time scaling to perform multi-step reasoning for complex problem-solving. This reasoning process, executed before producing final answers, is often guided by special juncture tokens or textual segments that prompt self-evaluative reflection. We refer to these transition markers and reflective cues as "reflection tokens" (e.g., "wait", "but", "alternatively"). In this work, we treat reflection tokens as a "resource" and introduce the problem of resource allocation, aimed at improving the test-time compute performance of LRMs by adaptively regulating the frequency and placement of reflection tokens. Through empirical analysis, we show that both excessive and insufficient use of reflection tokens, referred to as over-reflection and under-reflection, can degrade model performance. To better understand and manage this trade-off, we draw an analogy between reflection token usage and learning rate scheduling in optimization. Building on this insight, we propose cyclical reflection token scheduling (termed CyclicReflex), a decoding strategy that dynamically modulates reflection token logits using a position-dependent triangular waveform. Experiments on MATH500, AIME2024/2025, and AMC2023 demonstrate that CyclicReflex consistently improves performance across model sizes (1.5B-8B), outperforming standard decoding and more recent approaches such as TIP (thought switching penalty) and S1.
+Large reasoning models (LRMs), such as OpenAI’s o1 and DeepSeek-R1, harness test-time scaling to perform multi-step reasoning for complex problem-solving. This reasoning process, executed before producing final answers, is often guided by special juncture tokens that prompt self-evaluative reflection. These transition markers and reflective cues are referred to as “reflection tokens” (e.g., “wait”, “but”, “alternatively”). In this work, we treat reflection tokens as a “resource” and introduce the problem of resource allocation, aimed at improving the test-time compute performance of LRMs by adaptively regulating the frequency and placement of reflection tokens. Through empirical analysis, we show that both excessive and insufficient use of reflection tokens, referred to as over-reflection and under-reflection, can degrade model performance. To better understand this trade-off, we draw an analogy between reflection token usage and learning rate scheduling in optimization. Building on this insight, We propose cyclical reflection token scheduling (termed CyclicReflex), a training-free decoding strategy that dynamically modulates reflection token logits with a bidirectional, position-dependent triangular waveform, incurring no additional computation cost. Experiments on MATH500, AIME2024/2025, AMC2023, GPQA Diamond and LiveCodeBench demonstrate that CyclicReflex consistently improves performance across model sizes (1.5B–14B), outperforming standard decoding and recent approaches such as TIP (thought switching penalty) and S1.
 
 ## Getting Started
 

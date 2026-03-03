@@ -1,0 +1,4 @@
+Base/__pycache__/
+Base/cache/
+Base/wandb/
+Base/results/
