@@ -39,10 +39,9 @@ Large reasoning models (LRMs), such as OpenAI’s o1 and DeepSeek-R1, harness te
 
 ## Cite This Work
 ```
-@article{fan2025cyclicreflex,
-  title={CyclicReflex: Improving Large Reasoning Models via Cyclical Reflection Token Scheduling},
-  author={Fan, Chongyu and Zhang, Yihua and Jia, Jinghan and Hero, Alfred and Liu, Sijia},
-  journal={arXiv preprint arXiv:2506.11077},
-  year={2025}
+@inproceedings{fancyclicreflex,
+  title={CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling},
+  author={Fan, Chongyu and Zhang, Yihua and Jia, Jinghan and Hero, Alfred O and Liu, Sijia},
+  booktitle={The Fourteenth International Conference on Learning Representations}
 }
 ```
